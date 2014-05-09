@@ -1,0 +1,21 @@
+{
+    "name": "raymondidema/formvalidation",
+    "description": "Formvalidation for Laravel Applications",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Raymond Idema",
+            "email": "raymond@design-code.nl"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Raymondidema\\FormValidation": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
