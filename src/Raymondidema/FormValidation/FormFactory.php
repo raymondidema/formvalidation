@@ -1,6 +1,6 @@
 <?php  namespace Raymondidema\FormValidation;
 
-use Raymondidema\FormValidation\FactoryInterface as Validator;
+use Raymondidema\FormValidation\FactoryInterface as ValidatorFactory;
 
 abstract class FormFactory {
 
@@ -17,7 +17,7 @@ abstract class FormFactory {
     /**
      * @param Validator $validator
      */
-    public function __construct(Validator $validator)
+    public function __construct(ValidatorFactory $validator)
     {
         $this->validator = $validator;
     }

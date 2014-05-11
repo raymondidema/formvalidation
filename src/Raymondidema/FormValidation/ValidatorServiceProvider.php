@@ -15,6 +15,6 @@ class ValidatorServiceProvider extends ServiceProvider {
 
     public function boot()
     {
-        $this->package('Raymondidema/FormValidation');
+        $this->package('raymondidema/formvalidation');
     }
 } 
