@@ -1,9 +1,6 @@
 Install with composer
 -------------------------
 
-````
-    "require": {
-        "raymondidema\formvalidation": "~1.0"
-    }
-````
-
+```sh
+composer require raymondidema\formvalidation
+```
